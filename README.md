@@ -4,37 +4,27 @@
 🛠️ **HOME MAKING - Back-end (API)**
 📖 **Présentation**
 Ce dépôt contient l'API REST de HOME MAKING, une plateforme e-commerce de mobilier haut de gamme. Développé en autonomie, ce serveur gère la logique métier, l'authentification sécurisée et la persistance des données.
-
 Il est conçu pour fonctionner de pair avec le HOME MAKING - Front-end: [https://github.com/Camille-lt/front-objet-deco]
 
 🚀 **Stack Technique**
 Runtime : Node.js
-
 Framework : Express.js
-
 Base de données : SQL (PostgreSQL)
-
 Authentification : JSON Web Tokens (JWT)
-
 Architecture : RESTful API
 
-✨** Fonctionnalités Clés**
-Gestion des Produits : CRUD complet pour le catalogue de mobilier.
+✨**Fonctionnalités Clés**
 
-Système d'Authentification : Inscription et connexion sécurisées avec hachage des mots de passe et génération de tokens JWT.
-
-Gestion du Panier & Commandes : Logique de persistance des choix utilisateurs et traitement des commandes.
-
-Sécurité : Mise en place de middlewares pour la protection des routes privées.
+- Gestion des Produits : CRUD complet pour le catalogue de mobilier.
+- Système d'Authentification : Inscription et connexion sécurisées avec hachage des mots de passe et génération de tokens JWT.
+- Gestion du Panier & Commandes : Logique de persistance des choix utilisateurs et traitement des commandes.
+- Sécurité : Mise en place de middlewares pour la protection des routes privées.
 
 🚦 **Endpoints Principaux**
-POST /api/auth/register : Création d'un nouveau compte client.
-
-POST /api/auth/login : Connexion et récupération du token.
-
-GET /api/products : Récupération de la liste des meubles.
-
-POST /api/cart : Mise à jour du panier (Route sécurisée).
+- POST /api/auth/register : Création d'un nouveau compte client.
+- POST /api/auth/login : Connexion et récupération du token.
+- GET /api/products : Récupération de la liste des meubles.
+- POST /api/cart : Mise à jour du panier (Route sécurisée).
 
 🛠️ **Installation et Configuration**
 Cloner le projet :
